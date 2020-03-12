@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,3 +65,113 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+* {
+	max-width: 100%;
+}
+
+nav {
+	margin: 0 15%;
+	display: inline-block;
+	width: 70%;
+
+}
+ nav a{
+   margin: 0 3%;
+   color: gray;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 40px;
+}
+
+.nav img {
+	height: 70px;
+	width: auto;
+	margin: 0 4%;
+
+}
+
+/* second section  */
+
+.top-media{
+	max-width: 100%;
+
+}
+.top-media h1{
+	margin-left: 22%;
+	display: inline-block;
+	font-size: 150px;
+	width: 10%;
+
+}
+.top-media img{
+	display: inline-block;
+	margin-left: 25%;
+	margin-top: 1%;
+	width: 550px;
+}
+.top-media a{
+	display: inline-block;
+	margin-left: 25%;
+}
+button {
+	background-color: #808080; 
+	border: none;
+	color: #FFFFFF	;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 26%;
+  }
+/*Third section*/
+
+.third{
+	display: inline-block;
+	margin-left: 10%;
+}
+
+.third div{
+	display: inline-block;
+	width: 30%;
+	height: auto;
+
+}
+.third img{
+	width : 80%;
+	margin : 5% 0%;
+}
+.third p{
+ font-size: 30px;
+}
+.third h2{
+	font-size: 70px;
+   }
+.third .Features  {
+	margin: 0 6%;
+	margin-top: 6%;
+}
+hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 2px;
+  }
+
+  .fourth div{
+	display: inline-block;
+	width: 30%;
+	height: auto;
+	font-size: 30px;
+	margin-left: 10%;
+
+
+  }
+  .fourth p {
+	font-size: 30px;
+
+  }
